@@ -28,14 +28,14 @@ The Pet Management System includes the following features:
 1. Clone this repository.
 2. Open the project in your preferred IDE (e.g., Eclipse, IntelliJ IDEA).
 3. Build and run the `PetManagementSystemApplication` class.
-4. Access the application at `http://localhost:9191`.
+4. Access the application at `http://localhost:8080`.
 
 ## API Endpoints
 
-- **Add Pet**: `POST- localhost:9191/pet/add`
-- **Delete Pet**: `DELETE- localhost:9191/pet/deleted/{id}`
-- **Get All Pets**: `GET- localhost:9191/pet/all`
-- **Update Pet**: `PUT- localhost:9191/pets/updated/{id}`
+- **Add Pet**: `POST- localhost:8080/pet/addDetails`
+- **Delete Pet**: `DELETE- localhost:8080/pet/deletePets/{id}`
+- **Get All Pets**: `GET- localhost:8080/pet/getAllPet`
+- **Update Pet**: `PUT- localhost:8080/pets/updatePets/{id}`
 
 ## Notes
 
